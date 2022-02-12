@@ -14,6 +14,11 @@ app.use(cors({ origin: '*' }));
 //initalise body parser
 app.use(express.json());
 
+//root
+app.get('/', (req, res) => {
+   res.status(200).json({ status: 'success', message: 'Root of the API' });
+});
+
 //MAIN API FUNCTION
 app.post('/api', (req, res, next) => {
    //check if the input matches any record in the data.js file
