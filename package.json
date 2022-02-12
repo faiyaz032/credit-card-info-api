@@ -1,0 +1,19 @@
+{
+   "name": "credit-card-api",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "engines": {
+      "node": "16.x"
+   },
+   "scripts": {
+      "start": "node server.js",
+      "development": "nodemon server.js"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.2"
+   }
+}
